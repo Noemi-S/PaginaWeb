@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleoperaciones.css">
+     <!--<link rel="stylesheet" href="StylePH.css"
+    media="screen and (min-width:400px")>
+    <link rel="stylesheet" href="StyleTB.css"
+    media="screen and (min-width:600px")>
+    <link rel="stylesheet" href="styleo.css" 
+    media="screen and (min-width:800px")/>-->
+    <title>CALCULOS CON JS</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULOS CON JAVASCRIPT</h1>
+      </header>
+      <nav>
+        <a href="figuras.html" class="nav-enlace">Figuras</a>
+        <a href="index.html" class="nav-enlace">Inicio</a>
+        <a href="descuentos.html" class="nav-enlace">Descuentos</a>
+      </nav>
+      <main>
+        <section class="section-moda">
+          <form action>
+            <h2>Moda</h2>
+              <label for="InputDatos">Ingresa los datos, no olvides poner coma:</label>
+              <input id="InputDatos" placeholder="Datos" type="text">
+              <button type="button" onclick="ClickCalcularModa()">
+                  Calcular
+              </button>
+              <p id="Moda"></p>
+          </form>
+      </section>
+      <section class="section-mediana">
+        <h2>Mediana</h2>
+        <form >
+            <label for="InputDatos">Ingresa los datos, no olvides poner coma:</label>
+            <input id="InputDatos2" placeholder="Datos" type="text">
+            <button type="button" onclick="ClickCalcularMediana()">
+                Calcular
+            </button>
+            <p id="ListOrdenada"></p>
+            <p id="Mediana"></p>
+        </form>
+    </section>
+    <section class="section-promedio">
+      <h2>Promedio</h2>
+      <form >
+          <label for="InputDatos">Ingresa los datos, no olvides poner coma:</label>
+          <input id="InputDatos3" placeholder="Datos" type="text">
+          <button type="button" onclick="ClickCalcularPromedio()">
+              Calcular
+          </button>
+          <p id="Promedio"></p>
+      </form>
+  </section>
+<script src="operaciones.js"> </script>
+      </main>
+      <footer>
+        <p>Noemi Saldivar Yáñez ISC 18050016</p>
+      </footer>
+</body>
+</html>

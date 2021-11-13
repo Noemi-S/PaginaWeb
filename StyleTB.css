@@ -1,0 +1,60 @@
+@media (min-width: 600px){
+    main{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    nav{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;    
+    }
+    .menu{
+    margin-left: 25%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    }
+    .nav-enlace{
+        display: block;
+        color: black;
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+    .Section-Cupones{
+        display: block; 
+        width: 350px;
+        height: 300px;
+    }
+    .Section-Porcentajes{    
+        display: block;
+        width: 350px;
+        height: 300px;
+    }
+    .section-promedio{
+        margin-left: 12.5%;
+        display: block; 
+    }
+    .section-mediana{
+        margin-left: 12.5%;
+        display: block; 
+    }
+    .section-moda{
+        margin-left: 12.5%;
+        display: block; 
+    }
+    .section-cuadrado{
+        margin-left: 12.5%;
+        display: block; 
+    }
+    .section-circulo{
+        margin-left: 12.5%;
+        display: block; 
+    }
+    .section-triangulo{
+        margin-left: 12.5%;
+        display: block; 
+        height: 350px;
+    }
+}

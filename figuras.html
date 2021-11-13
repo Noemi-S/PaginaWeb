@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylefiguras.css" />
+    <!--<link rel="stylesheet" href="StyleTB.css"
+    media="screen and (min-width:600px")>
+    <link rel="stylesheet" href="StylePH.css"
+    media="screen and (min-width:400px")>-->
+    
+    <!--<link rel="stylesheet" href="stylef.css" 
+    media="screen and (min-width:800px")/>-->
+    <title>Calculos con JS</title>
+  </head>
+  <body>
+    <header>
+      <h1>CALCULOS CON JAVASCRIPT</h1>
+    </header>
+    <nav>
+      <a href="descuentos.html" class="nav-enlace">Descuentos</a>
+      <a href="index.html" class="nav-enlace">Inicio</a>
+      <a href="operaciones.html" class="nav-enlace">Operaciones</a>
+    </nav>
+    <main>
+      <!--Sección cuadrado-->
+      <section class="section-cuadrado">
+        <h2>Calculos cuadrado</h2>
+        <form>
+          <span>
+            <label for="inputCuadrado"> Escribe el valor del lado: </label>
+            <input type="number" placeholder="Lado" id="inputCuadrado" />
+          </span>
+          <button type="button" onclick="calcularPerimetroCuadrado()">
+            Calcular perimetro
+          </button>
+          <button type="button" onclick="calcularAreaCuadrado()">
+            Calcular área
+          </button>
+          <p id="ResulCuadrado"></p>
+        </form>
+      </section>
+      
+      <!--Sección triángulo-->
+      <section class="section-triangulo">
+        <h2>Calculos triángulo</h2>
+        <form>
+          <span>
+            <label for="LadoTriangulo"> Escribe los valores: </label>
+            <input type="number" placeholder="Lado 1" id="inputLadoTriangulo" />
+            <input type="number" placeholder="Lado 2" id="inputLado2Triangulo" />
+            <input type="number" placeholder="Base " id="inputbaseTriangulo" />
+            <input type="number" placeholder="Altura" id="inputAlturaTriangulo" />
+          </span>
+          <button type="button" onclick="calcularPerimetroTriangulo()">
+            Calcular perimetro
+          </button>
+          <button type="button" onclick="calcularAreaTriangulo()">
+            Calcular área
+          </button>
+          <p id="ResulTriangulo"></p>
+        </form>
+      </section>
+      
+      <!--Sección circulo-->
+      <section class="section-circulo">
+        <h2>Calculos circulo</h2>
+        <form>
+          <span>
+            <label for="Radio"> Escribe el radio del circulo </label>
+            <input type="number" placeholder="Radio" id="inputRadio" />
+          </span>
+          <button type="button" onclick="calcularDiametroCirculo()">
+            Calcular diametro
+          </button>
+          <button type="button" onclick="calcularPerimetroCirculo()">
+            Calcular perimetro
+          </button>
+          <button type="button" onclick="calcularAreaCirculo()">
+            Calcular área
+          </button>
+          <p id="ResulCirculo"></p>
+        </form>
+      </section>
+      <script src="figuras2.js"></script>
+    </main>
+    <footer>
+      <p>Noemi Saldivar Yáñez ISC 18050016</p>
+    </footer>
+  </body>
+</html>

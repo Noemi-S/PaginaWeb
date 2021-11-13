@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   padding-top: 40px;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: space-around;
+}
+nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: lightsteelblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-enlace{
+    display: inline-block;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: mediumspringgreen;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.section-moda{
+    border: teal  5px inset;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.section-mediana{
+    border: teal  5px inset;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.section-promedio{
+    border: teal  5px inset;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+label{
+    display: inline-block;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+input{
+    margin-top: 3px;
+    width: 140px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+}
+button{
+    margin-top: 8px;
+    padding: 2px;
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    background-color: dimgrey;
+    color:white;
+    font-size: 15px;
+}
+p{
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+footer{
+    padding-top: 40px;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    justify-content: space-around;
+}

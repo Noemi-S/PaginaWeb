@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledescuentos.css">
+    <!--<link rel="stylesheet" href="StylePH.css"
+    media="screen and (min-width:400px")>
+    <link rel="stylesheet" href="StyleTB.css"
+    media="screen and (min-width:600px")>
+    <link rel="stylesheet" href="styled.css" 
+    media="screen and (min-width:800px")/>--->
+    <title>CALCULOS CON JS</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULOS CON JAVASCRIPT</h1>
+      </header>
+      <nav>
+        <a href="figuras.html" class="nav-enlace">Figuras</a>
+        <a href="index.html" class="nav-enlace">Inicio</a>
+        <a href="operaciones.html" class="nav-enlace">Operaciones</a>
+      </nav>
+      <main>
+        <!-- Descuentos con cupones-->
+        <section class="Section-Cupones">
+            <h2>Calcula el precio a pagar de tus productos con cupones</h2>
+            <form>
+                <label for="InputPrice">Escribe el precio de tu producto:</label>
+                <input id="InputPrice" placeholder="Precio" type="number">
+                <label for="InputCupon">Escribe el nombre del cupón:</label>
+                <input id="InputCupon" placeholder="Cupón" type="Text">
+                <button type="button" onclick="ClickButtonPriceDiscount()">
+                Calcular el precio
+            </button>
+            <p id="ResultPrice"></p>
+            </form>
+        </section>
+        <!-- Descuentos con porcentajes-->
+        <section class="Section-Porcentajes">
+          <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+          <form>
+              <label for="InputPrice">Escribe el precio de tu producto:</label>
+              <input id="InputPrice2" placeholder="Precio" type="number">
+              <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+              <input id="InputDiscount" placeholder="Descuento" type="number">
+              <button type="button" onclick="ClickButtonPriceDiscount2()">
+              Calcular el precio
+          </button>
+          <p id="ResultPrice2"></p>
+          </form>
+      </section>
+        <script src="Ejercicioporcentajes.js"></script>
+      </main>
+      <footer>
+        <p>Noemi Saldivar Yáñez ISC 18050016</p>
+      </footer>
+    
+</body>
+</html>
